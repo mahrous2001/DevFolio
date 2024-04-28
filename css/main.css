@@ -1,0 +1,194 @@
+
+
+.main-header{
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+  .w-10 {
+    width: 10%;
+  }
+
+.border_b{
+  width: 100px;
+  height: 3px;
+  background-color: #0078FF;
+  margin: 5px auto;
+  position: absolute;
+}
+
+.image{
+  text-align: center;
+}
+
+.border_s{
+  width: 50px;
+  height: 5px;
+  background-color: #0078FF;
+  margin: 5px auto;
+}
+
+.vh-50{
+  min-height: 50vh;
+}
+
+
+#services .info
+{
+   transition: all 2s;
+}
+#services .info:hover i
+{
+    color: white;
+    background-color: #0d6efd;
+    box-shadow: 0 0 0 7px rgba(13, 109, 253,0.1);
+}
+
+#services .box-shadow{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 7px #0d6efd;
+}
+
+#static {
+  background-image: linear-gradient(rgba(13, 109, 253,0.7)0% 100%),url(../images/counters-bg.jpg);
+}
+
+#static .box-shadow{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 7px #CDE1F8;
+}
+
+
+#work a {
+  text-decoration: none;
+}
+
+#work i {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #0d6efd;
+  border-radius: 50%;
+}
+
+#work img {
+  transition: all 0.5s;
+}
+
+#work .work:hover img {
+  transform: scale(1.1);
+}
+
+#carousel {
+  background-image: linear-gradient(rgba(13, 109, 253, 0.7)0% 100%), url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#carousel .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#carousel .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#blog .w-20 {
+  width: 20%;
+}
+
+#blog .card-body {
+  position: relative;
+}
+
+#blog .card-body h6 {
+  position: absolute;
+  right: 40%;
+  bottom: 85%;
+}
+
+#blog a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#blog a:hover {
+  color: #0d6efd !important;
+}
+
+/* =============== Contact =============== */
+#contact {
+  background-image: linear-gradient(rgba(13, 109, 253, 0.7)0% 100%), url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#contact .box-shadow{
+
+}
+#contact h1 {
+  position: relative;
+}
+
+#contact h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: #0d6efd;
+  transform: translate(0, 50px);
+}
+
+#contact button {
+  box-shadow: 0 0 0 7px #0d6efd;
+  transition: all 0.5s;
+}
+
+#contact button:hover {
+  box-shadow: 0 0 0 7px rgba(13, 109, 253, 0.1);
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact .box-shadow {
+  box-shadow: 0 0 0 5px #0d6efd;
+  border-radius: 50%;
+}
+
+#contact .icon i {
+  transition: all 1s;
+}
+
+#contact .icon i:hover {
+  color: white;
+  background-color: #0d6efd;
+  box-shadow: 0 0 0 5px rgba(13, 109, 253, 0.1);
+}
+
+.bg-color {
+  background-color: #0062D3;
+}
+
+.arrow .back {
+  text-decoration: none;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
